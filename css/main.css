@@ -5,6 +5,16 @@ body * {
     padding: 0;
 }
 body {
+    padding: 2rem;
     font-family: Arial, sans-serif;
     
+}
+
+.zuikio-darzove {
+  font-size: 1.2rem;
+  background-color: green;
+}
+.zuikio-darzo-error {
+  font-size: 1.2rem;
+  background-color: red;
 }
