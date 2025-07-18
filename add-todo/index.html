@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/add-todo.css">
 </head>
 
 <body>
-    <header class="main-header">
+     <header class="main-header">
         <nav>
             <a href="../">Main</a>
             <a href="../cards/">Cards</a>
@@ -20,22 +21,22 @@
             <a href="../todo/">Todo</a>
         </nav>
     </header>
-    
-    <main> 
-     <h1>Darzas</h1>
-    <ul>
-        <li>darzove</li>
-        <li>darzove</li>
-        <li>darzove</li>
-        <li>darzove</li>
-        <li>darzove</li>
 
-        <li>darzove</li>
-        <li>darzove</li>
-    </ul>
+    <main>
+        <h1>Add todo</h1>
+        <form>
+            <input type="text" placeholder="Your task description">
+            <button type="submit">Add</button>
+        </form>
+
+        <div class="todo-list">
+            <!-- <div class="todo-item">
+                <p>1</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, sequi.</p>
+            </div> -->
+        </div>
     </main>
 
-    <script src="../js/darzas.js"></script>
+    <script src="../js/add-todo.js"></script>
 </body>
-
 </html>
